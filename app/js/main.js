@@ -14,10 +14,20 @@ let countdownInterval;
 
 const fetchData = async () => {
   const response = await fetch('app/json/questions.json');
-  const data = await response.json();
+  const allData = await response.json();
+  
+  // choose random 10 questions from json
+  let data = [];
+  let randomIndex = uniqueRandomNumbers(10, 0, 23);
+  for (let i = 0; i < 10; i++) {
+    data.push(allData[randomIndex[i]]);
+  };
   let questionsCount = data.length;
 
+  // call create bullets 
   createBullets(questionsCount);
+
+  // call show data
   showData(data[current], questionsCount);
 
   // countTimer
@@ -73,19 +83,20 @@ const showData = (data, qCount) => {
     quizArea.appendChild(questionTitle);
 
     // create question answers
-    for (let i = 1; i <= 4; i++) {
+    let randomIndex = uniqueRandomNumbers(4, 1, 4);
+    for (let i = 0; i < 4; i++) {
       let mainDiv = document.createElement('div');
       mainDiv.className = 'answer';
 
       let radioInput = document.createElement('input');
       radioInput.type = 'radio';
       radioInput.name = 'questions';
-      radioInput.id = `answer_${i}`;
-      radioInput.dataset.answer = data[`answer_${i}`];
+      radioInput.id = `answer_${randomIndex[i]}`;
+      radioInput.dataset.answer = data[`answer_${randomIndex[i]}`];
 
       let radioLabel = document.createElement('label');
-      radioLabel.htmlFor = `answer_${i}`;
-      let labelText = document.createTextNode(data[`answer_${i}`]);
+      radioLabel.htmlFor = `answer_${randomIndex[i]}`;
+      let labelText = document.createTextNode(data[`answer_${randomIndex[i]}`]);
       radioLabel.appendChild(labelText);
 
       mainDiv.appendChild(radioInput);
@@ -157,4 +168,22 @@ const countTimer = (duration, count) => {
       }
     }, 1000);
   }
+};
+
+function uniqueRandomNumbers(count, min, max) {
+  let numbers = [];
+
+  // Populate the array with numbers from min to max
+  for (let i = min; i <= max; i++) {
+    numbers.push(i);
+  }
+
+  // Shuffle the array
+  for (let i = numbers.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
+  }
+
+  // Return the first 'count' elements of the shuffled array
+  return numbers.slice(0, count);
 };

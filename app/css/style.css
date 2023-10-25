@@ -48,6 +48,14 @@ body {
 .quiz-app .answers-area .answer:not(:last-child) {
   border-bottom: 1px solid #dfdfdf;
 }
+.quiz-app .answers-area .answer input[type="Radio"]:checked::after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #0075ff;
+}
 .quiz-app .answers-area .answer input[type="Radio"]:checked + label {
   color: #0075ff;
 }

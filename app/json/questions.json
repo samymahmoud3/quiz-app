@@ -1,74 +1,186 @@
 [
   {
-    "title": "Why We Use <br> Element",
-    "answer_1": "To Make Text Bold",
-    "answer_2": "To Make Text Italic",
-    "answer_3": "To Add Breakline",
-    "answer_4": "To Create Horizontal Line",
-    "right_answer": "To Add Breakline"
+    "title": "What does HTML stand for?",
+    "answer_1": "Hyper Text Markup Language",
+    "answer_2": "Hyperlinks and Text Markup Language",
+    "answer_3": "Home Tool Markup Language",
+    "answer_4": "Hyper Text Manufacturing Language",
+    "right_answer": "Hyper Text Markup Language"
   },
   {
-    "title": "Is <img> Element Has Attribute href",
-    "answer_1": "Yes",
-    "answer_2": "No Its For Anchor Tag <a>",
-    "answer_3": "All Elements Has This Attribute",
-    "answer_4": "Answer 1 And 3 Is Right",
-    "right_answer": "No Its For Anchor Tag <a>"
+    "title": "Which HTML element is used to specify a footer for a document or section?",
+    "answer_1": "<section>",
+    "answer_2": "<bottom>",
+    "answer_3": "<footer>",
+    "answer_4": "<div>",
+    "right_answer": "<footer>"
   },
   {
-    "title": "How Can We Make Element Text Bold",
-    "answer_1": "Putting It Inside <b> Tag",
-    "answer_2": "Putting It Inside <strong> Tag",
-    "answer_3": "Customizing It With Font-Weight Property In CSS",
-    "answer_4": "All Answers Is Right",
-    "right_answer": "All Answers Is Right"
+    "title": "What is the correct JavaScript syntax to change the content of the HTML element below? <p id='demo'>This is a demonstration.</p>",
+    "answer_1": "document.getElement('p').innerHTML = 'Hello World!';",
+    "answer_2": "document.getElementByName('p').innerHTML = 'Hello World!';",
+    "answer_3": "document.getElementById('demo').innerHTML = 'Hello World!';",
+    "answer_4": "#demo.innerHTML = 'Hello World!';",
+    "right_answer": "document.getElementById('demo').innerHTML = 'Hello World!';"
   },
   {
-    "title": "What Is The Right Hierarchy For Creating Part Of Page",
-    "answer_1": "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
-    "answer_2": "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
-    "answer_3": "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
-    "answer_4": "All Solutions Is Wrong",
-    "right_answer": "All Solutions Is Wrong"
+    "title": "What does CSS stand for?",
+    "answer_1": "Cascading Style Sheets",
+    "answer_2": "Colorful Style Sheets",
+    "answer_3": "Computer Style Sheets",
+    "answer_4": "Creative Style Sheets",
+    "right_answer": "Cascading Style Sheets"
   },
   {
-    "title": "How Can We Include External Page Inside Our HTML Page",
-    "answer_1": "By Using Include in HTML",
-    "answer_2": "By Using Load In HTML",
-    "answer_3": "By Using iFrame Tag",
-    "answer_4": "All Solutions Is Wrong",
-    "right_answer": "By Using iFrame Tag"
+    "title": "Where in an HTML document is the correct place to refer to an external style sheet?",
+    "answer_1": "In the <body> section",
+    "answer_2": "At the end of the document",
+    "answer_3": "In the <head> section",
+    "answer_4": "In the <footer> section",
+    "right_answer": "In the <head> section"
   },
   {
-    "title": "What Is The Tag That Not Exists in HTML",
-    "answer_1": "<object>",
-    "answer_2": "<basefont>",
-    "answer_3": "<abbr>",
-    "answer_4": "All Tags Is Exists in HTML",
-    "right_answer": "All Tags Is Exists in HTML"
+    "title": "What is the purpose of the <head> element in an HTML document?",
+    "answer_1": "To define the body of the document",
+    "answer_2": "To define a section of the document",
+    "answer_3": "To display content on the webpage",
+    "answer_4": "To contain metadata about the document",
+    "right_answer": "To contain metadata about the document"
   },
   {
-    "title": "How We Specify Document Type Of HTML5 Page",
-    "answer_1": "<DOCTYPE html>",
-    "answer_2": "<DOCTYPE html5>",
-    "answer_3": "<!DOCTYPE html5>",
-    "answer_4": "<!DOCTYPE html>",
-    "right_answer": "<!DOCTYPE html>"
+    "title": "How do you add an external JavaScript file to your HTML document?",
+    "answer_1": "<script src='script.js'></script>",
+    "answer_2": "<javascript src='script.js'></javascript>",
+    "answer_3": "<link rel='stylesheet' href='script.js'>",
+    "answer_4": "<import src='script.js'>",
+    "right_answer": "<script src='script.js'></script>"
   },
   {
-    "title": "What Is The Element Thats Not Exists in HTML5 Semantics",
-    "answer_1": "<article>",
-    "answer_2": "<section>",
-    "answer_3": "<blockquote>",
-    "answer_4": "<aside>",
-    "right_answer": "<blockquote>"
+    "title": "Which of the following is NOT a valid CSS selector?",
+    "answer_1": "#myElement",
+    "answer_2": ".myElement",
+    "answer_3": "!myElement",
+    "answer_4": "body > div",
+    "right_answer": "!myElement"
   },
   {
-    "title": "In HTML Can We Use This Way To Add Attributes",
-    "answer_1": "<div class='class-name'>",
-    "answer_2": "<div class=class-name>",
-    "answer_3": "<div class=\"class-name\">",
-    "answer_4": "All Is Right",
-    "right_answer": "All Is Right"
+    "title": "What does the CSS property 'margin: 0 auto;' do?",
+    "answer_1": "Adds a margin to all sides of the element",
+    "answer_2": "Centers the element horizontally",
+    "answer_3": "Centers the element vertically",
+    "answer_4": "Sets the margin to 0 on all sides",
+    "right_answer": "Centers the element horizontally"
+  },
+  {
+    "title": "Which object-oriented programming concept does JavaScript support?",
+    "answer_1": "Inheritance",
+    "answer_2": "Polymorphism",
+    "answer_3": "Encapsulation",
+    "answer_4": "Abstraction",
+    "right_answer": "Inheritance"
+  },
+  {
+    "title": "What is the purpose of the 'this' keyword in JavaScript?",
+    "answer_1": "It refers to the current HTML document",
+    "answer_2": "It refers to the function in which it's used",
+    "answer_3": "It refers to the parent object of the current object",
+    "answer_4": "It refers to the current object",
+    "right_answer": "It refers to the current object"
+  },
+  {
+    "title": "What does the CSS property 'position: absolute;' do?",
+    "answer_1": "Positions an element relative to its parent",
+    "answer_2": "Positions an element relative to the viewport",
+    "answer_3": "Positions an element absolutely within its containing element",
+    "answer_4": "Positions an element randomly on the page",
+    "right_answer": "Positions an element absolutely within its containing element"
+  },
+  {
+    "title": "How do you comment out code in HTML?",
+    "answer_1": "<!-- This is a comment -->",
+    "answer_2": "/* This is a comment */",
+    "answer_3": "// This is a comment",
+    "answer_4": "# This is a comment",
+    "right_answer": "<!-- This is a comment -->"
+  },
+  {
+    "title": "Which JavaScript method is used to remove whitespace from both ends of a string?",
+    "answer_1": "trim()",
+    "answer_2": "removeWhitespace()",
+    "answer_3": "strip()",
+    "answer_4": "trimWhitespace()",
+    "right_answer": "trim()"
+  },
+  {
+    "title": "How do you select all elements with the class 'myClass' using CSS?",
+    "answer_1": ".myClass",
+    "answer_2": "#myClass",
+    "answer_3": "$myClass",
+    "answer_4": "*myClass",
+    "right_answer": ".myClass"
+  },
+  {
+    "title": "Which HTML tag is used to define a table row?",
+    "answer_1": "<tr>",
+    "answer_2": "<th>",
+    "answer_3": "<td>",
+    "answer_4": "<table>",
+    "right_answer": "<tr>"
+  },
+  {
+    "title": "How do you include an external CSS file in your HTML document?",
+    "answer_1": "<link rel='stylesheet' href='styles.css'>",
+    "answer_2": "<style src='styles.css'></style>",
+    "answer_3": "<css src='styles.css'></css>",
+    "answer_4": "<import href='styles.css'>",
+    "right_answer": "<link rel='stylesheet' href='styles.css'>"
+  },
+  {
+    "title": "In JavaScript, what is the purpose of the 'addEventListener' method?",
+    "answer_1": "To add an event listener to an element",
+    "answer_2": "To add a CSS class to an element",
+    "answer_3": "To create a new element",
+    "answer_4": "To append an element to the DOM",
+    "right_answer": "To add an event listener to an element"
+  },
+  {
+    "title": "What is the purpose of the CSS 'box-sizing' property?",
+    "answer_1": "To specify the box-shadow of an element",
+    "answer_2": "To include the padding and border in an element's total width and height",
+    "answer_3": "To specify the opacity of an element",
+    "answer_4": "To rotate an element",
+    "right_answer": "To include the padding and border in an element's total width and height"
+  },
+  {
+    "title": "How do you change the font color of an element using CSS?",
+    "answer_1": "color: #000000;",
+    "answer_2": "font-color: #000000;",
+    "answer_3": "text-color: #000000;",
+    "answer_4": "background-color: #000000;",
+    "right_answer": "color: #000000;"
+  },
+  {
+    "title": "What does the JavaScript 'typeof' operator return for the Boolean data type?",
+    "answer_1": "boolean",
+    "answer_2": "number",
+    "answer_3": "string",
+    "answer_4": "undefined",
+    "right_answer": "boolean"
+  },
+  {
+    "title": "What does the HTML <nav> element represent?",
+    "answer_1": "A section of a webpage",
+    "answer_2": "A navigation menu",
+    "answer_3": "A nested list",
+    "answer_4": "A sidebar",
+    "right_answer": "A navigation menu"
+  },
+  {
+    "title": "Which JavaScript method is used to remove the last element from an array?",
+    "answer_1": "pop()",
+    "answer_2": "shift()",
+    "answer_3": "push()",
+    "answer_4": "slice()",
+    "right_answer": "pop()"
   }
 ]
